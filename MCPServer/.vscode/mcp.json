@@ -1,0 +1,14 @@
+{
+    "servers": {
+        "stdio-coordinate-server": {
+            "type": "stdio",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "C:/Net Core/MCPServer/MCPServer/MCPServer.csproj"
+            ]
+        }
+    },
+    "inputs": []
+}

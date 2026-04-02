@@ -32,3 +32,10 @@ The application starts in `Program.cs` with the `Main` method:
 ## Notes
 - Ensure all dependencies are restored before running the application.
 - The `npx` command requires an active internet connection to fetch the `@modelcontextprotocol/inspector` package.
+
+## Run and Test MCP server via visual studio code
+- Open the project in visuyal studio code.
+- Make sure vs code has integration with Microsoft copilot.Open GitHub Copilot in Visual Studio Code and click on the “Configure Tools…” icon. In the menu that appears, scroll down to the stdio-coordinate-server and select all the tools. Click OK to save.
+- You can start by fetching/updating the docs using the MCP Prompt you defined. You access prompts in Visual Studio Code’s GitHub Copilot with a forward slash:
+- For Resources, Create a new chat and click on the + icon button. Select MCP Resources in the menu that appears:
+
